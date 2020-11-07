@@ -149,12 +149,9 @@ def _find_average_score(sentenceValue) -> int:
 
     # Average value of a sentence from original summary_text
     total_sentences = len(sentenceValue)
-    if total_sentences > 0:
-        average = (sumValues / total_sentences)
-    else:
-        average = sumValues
+    average = (sumValues / total_sentences) if total_sentences > 0 else sumValues
 
-    return int(average)
+    return average
 
 
 def _generate_summary(sentences, sentenceValue, threshold):
