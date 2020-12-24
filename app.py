@@ -26,3 +26,4 @@ if __name__ == '__main__':
             st.success(summary_result)
         else:
             st.error("Please paste or write(!) some text")
+
