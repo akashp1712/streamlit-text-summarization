@@ -10,7 +10,7 @@ if __name__ == '__main__':
     nltk.download('punkt')
     nltk.download('stopwords')
 
-    st.header("Text Summarization using TF-IDF")
+    st.header("Text Summarization using TF-IDF and WordFrequency Algorithms")
     st.subheader("This app will summarize the long piece of input text in a few sentences")
 
     st.subheader("Paste your long text below:")
